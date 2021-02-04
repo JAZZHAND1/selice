@@ -36,3 +36,137 @@
     transform: rotate(360deg);
   }
 }
+
+.sidenav {
+  width: 130px;
+  height:1000px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #332e30;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 20px 8px 20px 40px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+
+.inboxnav{
+  width: 400px;
+  height:1000px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 130px;
+  background: #ffffff;
+  overflow-x: hidden;
+  padding: 8px 0;
+  border: 1px solid black;
+}
+
+.main-nav{
+  width: 100%;
+  height:1000px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 531px;
+  background: #ffffff;
+  overflow-x: hidden;
+  padding: 8px 0;
+  border: 1px solid black;
+}
+
+
+
+.icon-bar {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  overflow: auto;
+  position: absolute;
+  left:20px;
+  top:20px;
+}
+
+
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+
+.card {
+  width: 100%;
+  position:absolute;
+  top:60px;
+}
+
+.card2{
+  width: 100%;
+  position:absolute;
+  top:220px;
+}
+.card3{
+  width: 100%;
+  position:absolute;
+  top:400px;
+}
+
+
+.container {
+  padding: 2px 25px;
+}
+
+.imgbox{
+  width: 50px;
+  max-width: 50px;
+  display: inline-block;
+  float: left;
+}
+
+.header2{
+  position: relative;
+  top: -27px;
+  left: 24px;
+  float: left;
+
+}
+
+.header4{
+  position: relative;
+  top: 6px;
+  left: -160px;
+
+}
+
+.header4-2{
+  position: relative;
+  top: 6px;
+  left: -200px;
+  width: 100%;
+}
+.header4-3{
+  position: relative; 
+  top:-45px;
+  left:74px;
+}
+
+
+
