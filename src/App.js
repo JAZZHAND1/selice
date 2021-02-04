@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import {input} from "react-bootstrap/InputGroup";
 import {Card} from 'react-bootstrap';
 import {navbar} from './components/navbar';
 import inbox from './components/inbox.png';
 import Image from './components/Image.png';
 import {AiOutlineStar} from 'react-icons/ai';
 import {TiPencil} from 'react-icons/ti';
+import {FaSearch} from 'react-icons/fa';
 
 import {AiOutlineFolderOpen} from 'react-icons/ai';
 import  {ImBin} from 'react-icons/im';
@@ -59,9 +61,18 @@ function App() {
 
 </div>
   
-  <div className="main-nav"></div>
-
+  <div className="main-nav">
+   <div>
+   <FaSearch className="searchicon"></FaSearch>
+    <input size="1.5em" className="inp">
+   </input>
+   </div>
+ 
+  
+  
+  </div>
     
+   
   </div>
   );
 }
