@@ -67,8 +67,11 @@ function App() {
     <input size="1.5em" className="inp">
    </input>
    </div>
- 
-  
+   <h2>Last CHANCE to get Startup Framework -50% OFF</h2>
+  <hr  style={{position:"absolute",top:"50px",width:"100%",border:"1px solid black"}}></hr>
+  <AiOutlineStar  color="black" size="1.5em"></AiOutlineStar> Designmondo to me 
+  <br></br>
+  <img className="imgbox" src={Image} height="300" width="800"></img>
   
   </div>
     
