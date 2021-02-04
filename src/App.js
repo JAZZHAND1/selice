@@ -71,11 +71,22 @@ function App() {
   <hr  style={{position:"absolute",top:"50px",width:"100%",border:"1px solid black"}}></hr>
   <AiOutlineStar  color="black" size="1.5em"></AiOutlineStar> Designmondo to me 
   <br></br>
-  <img className="imgbox" src={Image} height="300" width="800"></img>
-  
+  <div className="detailbox"> 
+  <img className="imgbox" src={Image} style={{position:"relative",top:"170px",left:"560px",margin:"auto"}}></img>
+ </div>
+
+  <div className="detailbar">
+   <h3> Designmodo </h3>
+    <h3> Exclusive Deal</h3>
+    <h3> View in the browser</h3>
   </div>
-    
-   
+   <div className="text"> 
+    <h2>LAST DAY:50% OFF Statup Framework </h2>
+    <h3> We offer you a 50% discount on <u>Startup Design Framework</u> </h3>
+    <h3>Startup Framework is a tool to help create website and is a nice</h3>
+   </div>
+  </div>
+
   </div>
   );
 }
