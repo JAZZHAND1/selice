@@ -1,17 +1,15 @@
 import react from 'react'
-import * as fincons from 'react-icons/fa';
-import {Link } from 'react-router-dom';
-import {FiInbox} from 'react-icons/fi';
-
-
-const navbar = (props)=>{
+import inbox from './inbox.png';
+import {AiOutlineStar} from 'react-icons/ai';
+const Navbar = (props)=>{
 
     return (
-        <div >
-       
-        hello
-        </div>
+    <div className="sidenav">
+        <a><img  src={inbox}></img></a>
+        <a><img src={inbox}></img></a>
+        <a><AiOutlineStar color="white" size="1.5em"></AiOutlineStar> </a>
+      </div> 
     )
 }
 
-export default navbar;
+export default Navbar;
