@@ -4,13 +4,13 @@ import {input} from "react-bootstrap/InputGroup";
 import {Card} from 'react-bootstrap';
 import Navbar from './components/navbar';
 import Iconnavbar from './components/iconnav';
-import Inboxcontents from  './components/inboxcard';
+import Inboxcard from  './components/inboxcard';
 import inbox from './components/inbox.png';
 import Image from './components/Image.png';
 import {AiOutlineStar} from 'react-icons/ai';
 import {HiInformationCircle} from 'react-icons/hi';
 import {FaRegEnvelope} from 'react-icons/fa';
-
+import Inbox from './components/inbox';
 import {FaSearch} from 'react-icons/fa';
 
 
@@ -18,16 +18,9 @@ function App() {
   return (
     <div>
     <Navbar></Navbar>
-  <div className="inboxnav">
-      <Iconnavbar></Iconnavbar>
-      <div className="container">
-      <Inboxcontents title="Henry Fox" subject="Re: Subject" description="You know about the last time I was going" time="15:23" ></Inboxcontents>
-      <Inboxcontents title="Designmo " subject="Last CHANCE to get Startup Fram" description="Exclusive Deal view in the browser." time="12:04" ></Inboxcontents>
-      <Inboxcontents title="Hey Designer" subject="Daily Newsletter" description="is this email not displaying correctly?" time="yesterday" ></Inboxcontents>
-    </div>
-   
+    <Inbox></Inbox>
 
- </div>
+
    <div className="main-nav">
     <div>
       <FaSearch className="searchicon"></FaSearch>

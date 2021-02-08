@@ -1,7 +1,7 @@
 import react from 'react';
 import {AiOutlineStar} from 'react-icons/ai';
 import Image from './Image.png';
-const Inboxcontents = (props)=>{
+const Inboxcard = (props)=>{
 
     return ( 
    <div className="card"> 
@@ -12,14 +12,12 @@ const Inboxcontents = (props)=>{
           <h3 style={{position:'relative',top:"-88px",right:'-220px'}}> {props.time} </h3>
         </div>
 
-      
-         <br></br>
-         <br></br>
-    <AiOutlineStar  color="black" size="1.5em" style={{float:"left",justifyContent:"space-between"}}></AiOutlineStar> {props.description}
-   <hr color="black" style={{position:"absolute",width:"120%",left:"-20px"}}></hr>
-   <br></br>
+    <AiOutlineStar  color="black" size="1.5em" style={{float:"left",justifyContent:"space-between",position:"relative",top:"-80px",left:"-2px"}}></AiOutlineStar>
+    <h5 style={{position:"relative",top:"-80px",left:"12px"}} >{props.description} </h5>
+     
+   <hr color="black" style={{position:"relative",width:"120%",left:"-20px",top:"-50px"}}></hr>
   </div>
  )
 }
 
-export default Inboxcontents;
+export default Inboxcard;
